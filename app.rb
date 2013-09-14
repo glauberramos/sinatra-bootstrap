@@ -16,7 +16,7 @@ configure do
   set :scss, Compass.sass_engine_options
 end
 
-get '/*.css' do
+get '/stylesheets/*.css' do
   content_type 'text/css', :charset => 'utf-8'
   filename = params[:splat].first
   scss filename.to_sym, :views => "#{settings.root}/views/stylesheets"
