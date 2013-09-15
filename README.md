@@ -1,7 +1,7 @@
 sinatra-bootstrap
 =================
 
-Ready to go project for rapid prototyping.
+Ready to go sinatra app for rapid prototyping. Sinatra + Sass + Compass + Haml + Html5 Boilerplate + Normalize
 
 
 Steps
