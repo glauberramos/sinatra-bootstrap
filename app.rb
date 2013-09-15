@@ -1,10 +1,11 @@
 require 'rubygems'
+require 'haml'
 require 'sinatra'
 require 'sass'
 require 'compass'
 
 get '/' do
-  erb :index
+  haml :index
 end
 
 configure do
